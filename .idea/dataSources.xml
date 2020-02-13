@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="template1@192.168.1.210" uuid="d4f07637-516b-44b3-bf9d-e98a8fd75cd8">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://192.168.1.210:5432/template1</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="@192.168.1.36" uuid="59a80b0f-ec8c-41ec-95b5-da1cb4e25fdc">
+      <driver-ref>sqlserver.jtds</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>net.sourceforge.jtds.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:jtds:sqlserver://192.168.1.36:1433</jdbc-url>
+    </data-source>
+  </component>
+</project>
